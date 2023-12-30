@@ -37,4 +37,28 @@ public class Matrix {
             }
         }
     }
+
+    public static void addRightDiagonal(int[][] matrix, int value) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (matrix.length != matrix[i].length) {
+                    System.out.println("Matrix is not square");
+                    return;
+                }
+            }
+        }
+
+        for (int i = matrix.length-1; i >= 0; i--) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (j + i == matrix.length-1) {
+                    matrix[i][j] = value;
+                }
+            }
+        }
+    }
+
+    public static void addBothDiagonals(int[][] matrix, int value) {
+        addLeftDiagonal(matrix, value);
+        addRightDiagonal(matrix, value);
+    }
 }
