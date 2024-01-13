@@ -7,5 +7,14 @@ public class MainClassCurrency {
         dollar.setKursNbu(29.0);
         System.out.println(dollar.getKursNbu());
         System.out.println(dollar.getMarga());
+
+        dollar.exchangeGrnToCurrency(3000);
+        dollar.exchangeCurrencyToGrn(100);
+
+        Euro euro = new Euro(41);
+        euro.exchangeCurrencyToGrn(100);
+
+        Som som = new Som(0.001);
+        som.exchangeGrnToCurrency(100);
     }
 }

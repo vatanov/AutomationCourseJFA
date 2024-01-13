@@ -1,17 +1,17 @@
 package currency;
 
-public class Dollar extends Currency implements IsFreeConverted {
-    public Dollar(double kursNbu) {
+public class Som extends Currency implements IsFreeConverted {
+    public Som(double kursNbu) {
         super(kursNbu);
     }
 
     @Override
     String getCurrencyName() {
-        return "USD";
+        return "Som";
     }
 
     @Override
     public boolean isFreeConv() {
-        return true;
+        return false;
     }
 }

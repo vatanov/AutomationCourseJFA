@@ -1,13 +1,14 @@
 package currency;
 
-public class Dollar extends Currency implements IsFreeConverted {
-    public Dollar(double kursNbu) {
+public class Euro extends Currency implements IsFreeConverted {
+
+    public Euro(double kursNbu) {
         super(kursNbu);
     }
 
     @Override
     String getCurrencyName() {
-        return "USD";
+        return "EUR";
     }
 
     @Override
