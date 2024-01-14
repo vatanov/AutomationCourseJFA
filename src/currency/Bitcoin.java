@@ -17,4 +17,9 @@ public class Bitcoin extends Currency implements CurrencyCrypto {
                 this.getCurrencyName()));
         return -1.0;
     }
+
+    @Override
+    public boolean isCryptoCurrency() {
+        return true;
+    }
 }

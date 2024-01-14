@@ -26,14 +26,14 @@ abstract public class Currency {
 
         this.marga = marga;
         if (!(this instanceof IsFreeConverted)) {
-            marga = marga * 1.2;
-            System.out.println("This is not real currency.");
-            System.out.println("Marga is changed. Current marga = " + marga);
+            this.marga = marga * 1.2;
+            System.out.println(getCurrencyName() + " is not real currency.");
+            System.out.println("Marga is changed. Current marga = " + this.marga);
         } else {
             if (((IsFreeConverted) this).isFreeConv() == false) {
-                marga = marga *1.1;
-                System.out.println("This is not free converted currency.");
-                System.out.println("Marga is changed. Current marga = " + marga);
+                this.marga = marga *1.1;
+                System.out.println(getCurrencyName() + " is not free converted currency.");
+                System.out.println("Marga is changed. Current marga = " + this.marga);
             }
         }
     }
