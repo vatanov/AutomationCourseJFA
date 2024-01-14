@@ -6,4 +6,5 @@ abstract public class CurrencyReal extends Currency{
         super(kursNbu);
     }
     abstract String getCurrencyName();
+
 }
