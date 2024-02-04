@@ -12,4 +12,13 @@ public class Menu {
         }
 
     }
+
+    public static double getDoubleFromConsole() {
+        Scanner keyboard = new Scanner(System.in);
+        try {
+            return keyboard.nextDouble();
+        } catch (Exception e) {
+            return 0;
+        }
+    }
 }

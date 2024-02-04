@@ -1,0 +1,30 @@
+Info
+Error
+Info
+Error
+Info
+Error
+Info
+Error
+INFO	2024-02-03 22:43:54,629	0	MainClassDouble	[main]	Info
+ERROR	2024-02-03 22:43:54,630	1	MainClassDouble	[main]	Error
+INFO	2024-02-03 22:44:03,928	0	MainClassDouble	[main]	Info
+ERROR	2024-02-03 22:44:03,929	1	MainClassDouble	[main]	Error
+INFO	2024-02-03 22:44:19,855	0	MainClassDouble	[main]	Info
+DEBUG	2024-02-03 22:44:19,855	0	MainClassDouble	[main]	Debug
+ERROR	2024-02-03 22:44:19,855	0	MainClassDouble	[main]	Error
+INFO	2024-02-03 22:49:49,397	0	MainClassDouble	[main]	Info
+DEBUG	2024-02-03 22:49:49,398	1	MainClassDouble	[main]	Debug
+ERROR	2024-02-03 22:49:49,398	1	MainClassDouble	[main]	Error
+INFO	2024-02-03 22:50:05,015	0	MainClassDouble	[main]	Info
+DEBUG	2024-02-03 22:50:05,016	1	MainClassDouble	[main]	Debug
+ERROR	2024-02-03 22:50:05,016	1	MainClassDouble	[main]	Error
+INFO	2024-02-03 22:50:16,929	0	MainClassDouble	[main]	Info
+DEBUG	2024-02-03 22:50:16,930	1	MainClassDouble	[main]	Debug
+ERROR	2024-02-03 22:50:16,930	1	MainClassDouble	[main]	Error
+INFO	2024-02-03 22:50:25,205	0	MainClassDouble	[main]	Info
+DEBUG	2024-02-03 22:50:25,206	1	MainClassDouble	[main]	Debug
+ERROR	2024-02-03 22:50:25,206	1	MainClassDouble	[main]	Error
+INFO	2024-02-03 22:50:53,433	0	MainClassDouble:25  	[main]	Info
+DEBUG	2024-02-03 22:50:53,434	1	MainClassDouble:26  	[main]	Debug
+ERROR	2024-02-03 22:50:53,434	1	MainClassDouble:27  	[main]	Error
